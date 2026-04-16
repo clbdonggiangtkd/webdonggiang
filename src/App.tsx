@@ -41,8 +41,9 @@ export default function App() {
     {
       id: "quang-xuong",
       name: "PHÒNG TẬP 68 QUẢNG XƯƠNG",
+image: "4.jpg",
       type: "Phòng tập chuyên sâu",
-      mapUrl: "https://www.google.com/maps/search/68+Quảng+Xương+Đà+Nẵng",
+      mapUrl: "https://maps.app.goo.gl/s6qMief43hGVhMZt8",
       pricing: [
         { label: "8 buổi / tháng", price: "300.000 VNĐ" },
         { label: "12 buổi / tháng", price: "350.000 VNĐ" },
@@ -62,8 +63,9 @@ export default function App() {
     {
       id: "hoa-khuong",
       name: "TRƯỜNG TIỂU HỌC HÒA KHƯƠNG",
+image: "2.jpg",
       type: "Cơ sở trường học",
-      mapUrl: "https://www.google.com/maps/search/Trường+Tiểu+học+Hòa+Khương+Đà+Nẵng",
+      mapUrl: "https://maps.app.goo.gl/kNtJQG1bEcB8434U7",
       price: "350.000 VNĐ",
       schedule: "Thứ 2, 4, 6",
       hours: ["17:00 - 18:30", "17:30 - 19:00"]
@@ -71,8 +73,9 @@ export default function App() {
     {
       id: "hoa-nhon",
       name: "TRƯỜNG TIỂU HỌC SỐ 1 HÒA NHƠN",
+image: "3.jpg",
       type: "Cơ sở trường học",
-      mapUrl: "https://www.google.com/maps/search/Trường+Tiểu+học+số+1+Hòa+Nhơn+Đà+Nẵng",
+      mapUrl: "https://maps.app.goo.gl/2uyJhwxVPrBYNpG86",
       price: "350.000 VNĐ",
       schedule: "Thứ 3, 5, 7",
       hours: ["17:00 - 18:30", "17:30 - 19:00"]
@@ -129,7 +132,7 @@ export default function App() {
             <div className="flex items-center gap-4">
               <div className="w-16 h-16 bg-white p-1 rounded-full shadow-lg border-2 border-primary overflow-hidden">
                 <img 
-                  src="https://img.freepik.com/premium-vector/taekwondo-logo-design-template-martial-art-vector-illustration_636083-143.jpg" 
+                  src="/logo.png"
                   alt="Logo" 
                   className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"
@@ -244,7 +247,7 @@ export default function App() {
             >
               <div className="aspect-[16/10] bg-slate-100 relative overflow-hidden border-[8px] border-white shadow-2xl rotate-1">
                 <img 
-                  src="https://picsum.photos/seed/taekwondo-action/1200/800" 
+                  src="1.JPG" 
                   alt="Taekwondo Training" 
                   className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
                   referrerPolicy="no-referrer"
@@ -398,7 +401,7 @@ export default function App() {
                       className="bg-slate-200 relative min-h-[500px] hidden lg:block group overflow-hidden"
                     >
                       <img 
-                        src={`https://picsum.photos/seed/${loc.id}/1000/1200`} 
+                        src={loc.image} 
                         alt={loc.name} 
                         className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                         referrerPolicy="no-referrer"
