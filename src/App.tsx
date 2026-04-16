@@ -132,7 +132,7 @@ image: "3.jpg",
             <div className="flex items-center gap-4">
               <div className="w-16 h-16 bg-white p-1 rounded-full shadow-lg border-2 border-primary overflow-hidden">
                 <img 
-                  src="/logo.png"
+                  src="logo.png"
                   alt="Logo" 
                   className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"
@@ -247,7 +247,7 @@ image: "3.jpg",
             >
               <div className="aspect-[16/10] bg-slate-100 relative overflow-hidden border-[8px] border-white shadow-2xl rotate-1">
                 <img 
-                  src="1.JPG" 
+                  src="1.jpg" 
                   alt="Taekwondo Training" 
                   className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
                   referrerPolicy="no-referrer"
